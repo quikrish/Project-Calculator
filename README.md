@@ -1,13 +1,3 @@
-Calculator Project
-A simple and responsive calculator built using HTML, CSS, and JavaScript. This project performs basic arithmetic operations and includes percentage and error handling functionality.
-
-Features
-Basic arithmetic operations: Addition, Subtraction, Multiplication, and Division.
-Percentage functionality:
-Single number percentage (e.g., 50% becomes 0.5).
-Percentage in operations (e.g., 50 + 20% calculates 20% of 50 and adds it to 50).
-Clear all functionality (AC button resets the calculator).
-Handles division by zero with an error message.
 ## Calculator Project
 
 A simple and responsive calculator built using **HTML**, **CSS**, and **JavaScript**. This project performs basic arithmetic operations and includes percentage and error handling functionality.

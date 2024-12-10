@@ -5,7 +5,7 @@ body {
 }
 
 #calculator {
-  height: 500px;
+  height: 510px;
   width: 400px;
   padding: 10px;
   margin: 0;
@@ -25,16 +25,38 @@ body {
   padding: 10px;
   grid-column: span 4;
   grid-row: span 1;
+  height: 100px;
 }
-
+.output {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.previous {
+  width: 50px;
+  font-size: 20px;
+  text-align: left;
+}
+.current {
+  font-size: larger;
+}
 .zero {
   grid-column: span 2;
 }
+.clear {
+  grid-column: span 2;
+}
 button {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  color: white;
+  background-color: palevioletred;
 }
 
 .operator {
